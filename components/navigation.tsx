@@ -54,7 +54,7 @@ export default function Navigation() {
                 </div>
               </DialogContent>
             </Dialog>
-            <Link href="/" className="font-bold text-xl text-slate-900 hover:text-orange-600 transition-colors">
+            <Link href="/" className="font-bold text-xl text-slate-900 hover:text-neutral-600 transition-colors">
               Stunning Finish Corp
             </Link>
           </div>
@@ -65,14 +65,14 @@ export default function Navigation() {
               <Link
                 key={item.name}
                 href={item.href}
-                className={`text-sm font-medium transition-colors hover:text-orange-600 ${
-                  pathname === item.href ? "text-orange-600" : "text-slate-600"
+                className={`text-sm font-medium transition-colors hover:text-neutral-900 ${
+                  pathname === item.href ? "text-neutral-900 font-semibold" : "text-slate-600"
                 }`}
               >
                 {item.name}
               </Link>
             ))}
-            <Button asChild size="sm" className="bg-orange-600 hover:bg-orange-700">
+            <Button asChild size="sm" className="bg-neutral-800 hover:bg-neutral-900 text-white">
               <a href="tel:9175602977">
                 <Phone className="h-4 w-4 mr-2" />
                 Call Now
@@ -96,15 +96,15 @@ export default function Navigation() {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className={`text-sm font-medium transition-colors hover:text-orange-600 ${
-                    pathname === item.href ? "text-orange-600" : "text-slate-600"
+                  className={`text-sm font-medium transition-colors hover:text-neutral-900 ${
+                    pathname === item.href ? "text-neutral-900 font-semibold" : "text-slate-600"
                   }`}
                   onClick={() => setIsOpen(false)}
                 >
                   {item.name}
                 </Link>
               ))}
-              <Button asChild size="sm" className="bg-orange-600 hover:bg-orange-700 w-fit">
+              <Button asChild size="sm" className="bg-neutral-800 hover:bg-neutral-900 text-white w-fit">
                 <a href="tel:9175602977">
                   <Phone className="h-4 w-4 mr-2" />
                   Call Now

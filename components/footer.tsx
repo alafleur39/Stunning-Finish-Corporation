@@ -109,11 +109,11 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-center gap-3">
-                <Phone className="h-4 w-4 text-orange-600 flex-shrink-0" />
+                <Phone className="h-4 w-4 text-neutral-400 flex-shrink-0" />
                 <span className="text-slate-300 text-sm">(917) 560-2977</span>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="h-4 w-4 text-orange-600 flex-shrink-0" />
+                <Mail className="h-4 w-4 text-neutral-400 flex-shrink-0" />
                 <a
                   href="mailto:sfinishcorp@gmail.com"
                   className="text-slate-300 text-sm hover:text-white transition-colors"
@@ -122,7 +122,7 @@ export default function Footer() {
                 </a>
               </div>
               <div className="flex items-start gap-3">
-                <MapPin className="h-4 w-4 text-orange-600 flex-shrink-0 mt-0.5" />
+                <MapPin className="h-4 w-4 text-neutral-400 flex-shrink-0 mt-0.5" />
                 <span className="text-slate-300 text-sm">New York City, NY</span>
               </div>
             </div>

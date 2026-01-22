@@ -64,7 +64,7 @@ export default function ProjectInquiryModal({ projectTitle, projectCategory }: P
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
-        <Button variant="outline" size="sm" className="w-full">
+        <Button variant="outline" size="sm" className="w-full bg-transparent">
           <MessageSquare className="h-4 w-4 mr-2" />
           Inquire About This Project
         </Button>
@@ -125,7 +125,7 @@ export default function ProjectInquiryModal({ projectTitle, projectCategory }: P
             <select
               id="projectType"
               name="projectType"
-              className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+              className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:border-transparent"
             >
               <option value="">Select project type</option>
               <option value="similar">Similar to this project</option>
@@ -145,7 +145,7 @@ export default function ProjectInquiryModal({ projectTitle, projectCategory }: P
               <select
                 id="timeline"
                 name="timeline"
-                className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:border-transparent"
               >
                 <option value="">Select timeline</option>
                 <option value="asap">As soon as possible</option>
@@ -160,7 +160,7 @@ export default function ProjectInquiryModal({ projectTitle, projectCategory }: P
               <select
                 id="budget"
                 name="budget"
-                className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:border-transparent"
               >
                 <option value="">Select budget range</option>
                 <option value="under-10k">Under $10,000</option>
@@ -184,7 +184,7 @@ export default function ProjectInquiryModal({ projectTitle, projectCategory }: P
           </div>
 
           <div className="flex gap-3 pt-4">
-            <Button type="submit" className="flex-1 bg-orange-600 hover:bg-orange-700" disabled={isSubmitting}>
+            <Button type="submit" className="flex-1 bg-neutral-800 hover:bg-neutral-900 text-white" disabled={isSubmitting}>
               {isSubmitting ? "Sending..." : "Send Inquiry"}
             </Button>
             <Button type="button" variant="outline" onClick={() => setIsOpen(false)}>

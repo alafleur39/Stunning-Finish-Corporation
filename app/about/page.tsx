@@ -80,7 +80,7 @@ export default function AboutPage() {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold text-orange-600 mb-2">{stat.number}</div>
+                <div className="text-4xl lg:text-5xl font-bold text-neutral-700 mb-2">{stat.number}</div>
                 <div className="text-slate-600 font-medium">{stat.label}</div>
               </div>
             ))}
@@ -103,8 +103,8 @@ export default function AboutPage() {
             {values.map((value, index) => (
               <Card key={index} className="text-center hover:shadow-lg transition-shadow">
                 <CardContent className="p-6">
-                  <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-100 rounded-full mb-4">
-                    <value.icon className="h-8 w-8 text-orange-600" />
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-neutral-100 rounded-full mb-4">
+                    <value.icon className="h-8 w-8 text-neutral-700" />
                   </div>
                   <h3 className="text-xl font-semibold mb-3 text-slate-900">{value.title}</h3>
                   <p className="text-slate-600">{value.description}</p>
@@ -116,22 +116,22 @@ export default function AboutPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-orange-600 text-white">
+      <section className="py-16 bg-neutral-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Work With Us?</h2>
-          <p className="text-xl mb-8 text-orange-100">
+          <p className="text-xl mb-8 text-neutral-300">
             Experience the Stunning Finish Corp difference on your next project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3 bg-white text-orange-600 font-semibold rounded-lg hover:bg-slate-100 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 bg-white text-neutral-800 font-semibold rounded-lg hover:bg-neutral-100 transition-colors"
             >
               Get Started Today
             </a>
             <a
               href="/portfolio"
-              className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-orange-600 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-neutral-800 transition-colors"
             >
               View Our Work
             </a>

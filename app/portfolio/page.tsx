@@ -146,20 +146,20 @@ export default function PortfolioPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 bg-orange-600 text-white">
+      <section className="py-16 bg-neutral-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Create Your Dream Space?</h2>
-          <p className="text-xl mb-8 text-orange-100">Let's discuss your project and bring your vision to life.</p>
+          <p className="text-xl mb-8 text-neutral-300">Let's discuss your project and bring your vision to life.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-3 bg-white text-orange-600 font-semibold rounded-lg hover:bg-slate-100 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 bg-white text-neutral-800 font-semibold rounded-lg hover:bg-neutral-100 transition-colors"
             >
               Get Your Free Quote
             </a>
             <a
               href="tel:+19175602977"
-              className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-orange-600 transition-colors"
+              className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-neutral-800 transition-colors"
             >
               Call Us Today
             </a>

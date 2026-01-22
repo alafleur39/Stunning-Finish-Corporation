@@ -41,7 +41,7 @@ export default function ContactPage() {
                 <CardContent className="space-y-6">
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <Phone className="h-6 w-6 text-orange-600" />
+                      <Phone className="h-6 w-6 text-neutral-600" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 mb-1">Phone</h3>
@@ -52,14 +52,14 @@ export default function ContactPage() {
 
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <Mail className="h-6 w-6 text-orange-600" />
+                      <Mail className="h-6 w-6 text-neutral-600" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 mb-1">Email</h3>
                       <p className="text-slate-600">
                         <a
                           href="mailto:sfinishcorp@gmail.com"
-                          className="text-orange-600 hover:text-orange-700 hover:underline"
+                          className="text-neutral-700 hover:text-neutral-900 hover:underline font-medium"
                         >
                           sfinishcorp@gmail.com
                         </a>
@@ -70,7 +70,7 @@ export default function ContactPage() {
 
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <MapPin className="h-6 w-6 text-orange-600" />
+                      <MapPin className="h-6 w-6 text-neutral-600" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 mb-1">Service Area</h3>
@@ -81,7 +81,7 @@ export default function ContactPage() {
 
                   <div className="flex items-start gap-4">
                     <div className="flex-shrink-0">
-                      <Clock className="h-6 w-6 text-orange-600" />
+                      <Clock className="h-6 w-6 text-neutral-600" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-slate-900 mb-1">Business Hours</h3>

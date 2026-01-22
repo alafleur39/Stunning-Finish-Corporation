@@ -46,7 +46,7 @@ export default function HomePage() {
                 exceed expectations, on time and within budget.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700 text-white">
+                <Button asChild size="lg" className="bg-neutral-700 hover:bg-neutral-800 text-white">
                   <Link href="/contact">Get Free Quote</Link>
                 </Button>
                 <Button
@@ -169,7 +169,7 @@ export default function HomePage() {
               <div className="mt-4 text-center">
                 <h3 className="text-xl font-semibold text-slate-900 mb-2">Construction Phase</h3>
                 <p className="text-slate-600">Raw construction with exposed materials and work in progress</p>
-                <p className="text-sm text-orange-600 mt-2 font-medium">Click image to view details</p>
+                <p className="text-sm text-neutral-500 mt-2 font-medium">Click image to view details</p>
               </div>
             </div>
 
@@ -195,13 +195,13 @@ export default function HomePage() {
                 <p className="text-slate-600">
                   Complete transformation with marble tiles, rainfall shower, and premium finishes
                 </p>
-                <p className="text-sm text-orange-600 mt-2 font-medium">Click image to view details</p>
+                <p className="text-sm text-neutral-500 mt-2 font-medium">Click image to view details</p>
               </div>
             </div>
           </div>
 
           <div className="text-center mt-12">
-            <Button asChild size="lg" className="bg-orange-600 hover:bg-orange-700">
+            <Button asChild size="lg" className="bg-neutral-700 hover:bg-neutral-800 text-white">
               <Link href="/portfolio">View More Transformations</Link>
             </Button>
           </div>
@@ -244,20 +244,20 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-orange-600 text-white">
+      <section className="py-16 bg-neutral-800 text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl lg:text-4xl font-bold mb-4">Ready to Start Your Project?</h2>
-          <p className="text-xl mb-8 text-orange-100">
+          <p className="text-xl mb-8 text-neutral-300">
             Get a free consultation and quote for your next contracting project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg" className="bg-white text-orange-600 hover:bg-slate-100">
+            <Button asChild size="lg" className="bg-white text-neutral-800 hover:bg-neutral-100">
               <Link href="/contact">Get Free Quote</Link>
             </Button>
             <Button
               asChild
               size="lg"
-              className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-orange-600"
+              className="border-2 border-white text-white bg-transparent hover:bg-white hover:text-neutral-800"
             >
               <Link href="tel:9175602977">
                 <Phone className="h-4 w-4 mr-2" />

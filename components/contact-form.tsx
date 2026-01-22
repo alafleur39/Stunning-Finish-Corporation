@@ -96,7 +96,7 @@ export default function ContactForm() {
         <select
           id="projectType"
           name="projectType"
-          className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+          className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:border-transparent"
         >
           <option value="">Select a service</option>
           <option value="kitchen">Kitchen Remodeling</option>
@@ -116,7 +116,7 @@ export default function ContactForm() {
         <select
           id="budget"
           name="budget"
-          className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+          className="w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-neutral-500 focus:border-transparent"
         >
           <option value="">Select budget range</option>
           <option value="under-10k">Under $10,000</option>
@@ -142,7 +142,7 @@ export default function ContactForm() {
 
       <Button
         type="submit"
-        className="w-full bg-orange-600 hover:bg-orange-700 text-white"
+        className="w-full bg-neutral-800 hover:bg-neutral-900 text-white"
         size="lg"
         disabled={isSubmitting}
       >
